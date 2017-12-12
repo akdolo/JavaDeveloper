@@ -1,0 +1,40 @@
+package www.warmingup.com;
+
+public class StringWarmingUp {
+	
+public static void main(String[] args) {
+		
+		String a = "helloword";
+		String b = "Helloword";
+		String c = new String("helloword");
+		String d = a;
+		String e = "helloword";
+		
+		
+		System.out.println("Is string a == string c:  " + (a==c));
+		System.out.println("Is string c == string e:  " + (c==e));
+		
+		System.out.println("Last index ('l') of srting a :" + 	a.lastIndexOf('l'));
+		System.out.println("Characters at '8' of string b is: " + 		b.charAt(4));
+		
+		System.out.println("Length of string b:  " + 		a.length());
+		System.out.println("String.indexOf('e'):\t\t" + 	d.indexOf('e'));
+		
+		System.out.println("Is stringe equalsto string a:  " + 	e.equals(a));
+		System.out.println("Stringd equalsIgnoreCase string a: " + d.equalsIgnoreCase(a));
+		
+		System.out.println("Stringe to upperCase:  " + 	e.toUpperCase());
+		System.out.println("String b to lowerCase:  " + 	b.toLowerCase()); 
+		
+		test(b);
+		System.out.println(b);
+	}
+	
+		static void test(String x){
+		 x.substring(2); 
+	 }
+	
+
+}
+
+
